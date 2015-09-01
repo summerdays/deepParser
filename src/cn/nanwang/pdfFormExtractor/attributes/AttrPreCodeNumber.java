@@ -5,6 +5,7 @@ import java.util.regex.Pattern;
 
 import cn.nanwang.pdfFormExtractor.PDFAttribute;
 
+//@author Nan Wang
 
 public class AttrPreCodeNumber extends PDFAttribute {
 	static Pattern priorCaseRegex = Pattern.compile("([0-9]{2}-[0-9]{4,5}-[A-Za-z]{2,4})\\s+.*");

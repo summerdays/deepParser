@@ -4,6 +4,7 @@ import java.util.regex.Pattern;
 
 import cn.nanwang.pdfFormExtractor.PDFAttribute;
 
+//@author Nan Wang
 
 public class AttrDebtorName extends PDFAttribute{
 	
@@ -25,6 +26,4 @@ public class AttrDebtorName extends PDFAttribute{
 			}
 		}
 	}
-
-	
 }

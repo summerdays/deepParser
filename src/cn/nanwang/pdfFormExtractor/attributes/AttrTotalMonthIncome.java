@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 
 import cn.nanwang.pdfFormExtractor.PDFAttribute;
 
-
+//@author Nan Wang
 
 public class AttrTotalMonthIncome extends PDFAttribute {
 	static Pattern moneyRegex = Pattern.compile("(?:^|[\\D&&[^\\.]]+)((?:[0-9]{1,3}(?:,[0-9]{3}){1,4}|[0-9]{3,4})(?:\\.[0-9]{2})?).*");

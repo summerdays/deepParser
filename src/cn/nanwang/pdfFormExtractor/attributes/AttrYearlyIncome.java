@@ -5,6 +5,7 @@ import java.util.regex.Pattern;
 
 import cn.nanwang.pdfFormExtractor.PDFAttribute;
 
+//@author Nan Wang
 
 public class AttrYearlyIncome extends PDFAttribute {
 	
@@ -24,8 +25,6 @@ public class AttrYearlyIncome extends PDFAttribute {
 	}
 	
 	public void computeValue(String src){
-
-
 		Matcher mYear = yearRegex.matcher(src);
 		if(mYear.find()){
 			int safeWhile = 0;

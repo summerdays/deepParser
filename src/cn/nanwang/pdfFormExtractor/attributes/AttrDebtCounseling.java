@@ -43,5 +43,4 @@ public class AttrDebtCounseling extends PDFAttribute {
 		if(times> 0)
 			value = String.valueOf(totalValue) + " \t " + String.valueOf(times);
 	}
-
 }

@@ -7,7 +7,6 @@ import cn.nanwang.pdfFormExtractor.PDFAttribute;
 
 //@author Nan Wang
 
-
 public class AttrAlimonyIncome extends PDFAttribute {
 	static Pattern moneyRegex = Pattern.compile("(?:^|[\\D&&[^\\.]]+)((?:[0-9]{1,3}(?:,[0-9]{3}){1,4}|[0-9]{3,4})(?:\\.[0-9]{2})?).*");
 	static Pattern caseRegex = Pattern.compile(".*\\s+([0-9]{2}-[0-9]{4,5}-[a-z]{2,4})\\s+.*");

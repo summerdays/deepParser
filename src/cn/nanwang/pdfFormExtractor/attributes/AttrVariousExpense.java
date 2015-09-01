@@ -5,6 +5,7 @@ import java.util.regex.Pattern;
 
 import cn.nanwang.pdfFormExtractor.PDFAttribute;
 
+//@author Nan Wang
 
 public class AttrVariousExpense extends PDFAttribute {
 	
@@ -89,11 +90,9 @@ public class AttrVariousExpense extends PDFAttribute {
 					this.regularExpense = String.valueOf(e[iExpense-4]);
 			} 				
 		}
-	
 	}
 	
-	public String toString(){
-		
+	public String toString(){		
 		if(rent == null)
 			this.value = "N.A.";
 		else
@@ -116,6 +115,4 @@ public class AttrVariousExpense extends PDFAttribute {
 		
 		return this.value;
 	}
-	
-	
 }

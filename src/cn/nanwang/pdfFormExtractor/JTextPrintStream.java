@@ -11,7 +11,6 @@ public class JTextPrintStream extends PrintStream{
 	//The JTextArea to which the output stream will be redirected.
     private JTextArea textArea;
 
-
     /**
      * Method TextAreaPrintStream
      * The constructor of the class.

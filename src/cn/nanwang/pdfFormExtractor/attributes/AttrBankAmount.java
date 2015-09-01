@@ -45,5 +45,4 @@ public class AttrBankAmount extends PDFAttribute {
 		}
 
 	}
-	
 }

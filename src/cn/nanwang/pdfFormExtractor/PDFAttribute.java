@@ -3,6 +3,7 @@ package cn.nanwang.pdfFormExtractor;
 //@author Nan Wang
 
 public class PDFAttribute {
+	
 	protected String name;
 	protected String value;
 	protected int page;
@@ -39,7 +40,6 @@ public class PDFAttribute {
 	public String printName(){
 		return this.name;
 	}
-	
 	
 	public String toString(){		
 		if(this.value == null)

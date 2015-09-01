@@ -10,7 +10,6 @@ import cn.nanwang.pdfFormExtractor.attributes.*;
 
 //@author Nan Wang
 
-
 public class PDFfile{
 	//regular expression
 	/*String noneRegex = "^N[oO][nN][eE].*";
@@ -113,8 +112,6 @@ public class PDFfile{
 		attrs[0].assignValue(file.getName());
 		this.file = file;
 	}
-
-
 
 	public void run(){
 		try {

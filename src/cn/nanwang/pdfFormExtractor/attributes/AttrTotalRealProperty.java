@@ -5,6 +5,7 @@ import java.util.regex.Pattern;
 
 import cn.nanwang.pdfFormExtractor.PDFAttribute;
 
+//@author Nan Wang
 
 public class AttrTotalRealProperty extends PDFAttribute {
 	
@@ -28,6 +29,7 @@ public class AttrTotalRealProperty extends PDFAttribute {
 		}
 		
 		Matcher m2 = moneyRegex.matcher(src);
+		
 		if (m2.matches()) {
 			//System.out.println(lines[l]);
 			if (this.value == null)
@@ -42,5 +44,4 @@ public class AttrTotalRealProperty extends PDFAttribute {
 			}
 		}
 	}
-	
 }

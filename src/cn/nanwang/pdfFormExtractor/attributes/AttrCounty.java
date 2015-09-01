@@ -5,6 +5,7 @@ import java.util.regex.Pattern;
 
 import cn.nanwang.pdfFormExtractor.PDFAttribute;
 
+//@author Nan Wang
 
 public class AttrCounty extends PDFAttribute {
 	Pattern countyRegex = Pattern.compile("([A-Za-z]+),\\s+G[Aa]");

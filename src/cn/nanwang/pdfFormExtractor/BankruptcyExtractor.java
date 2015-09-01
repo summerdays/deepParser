@@ -20,7 +20,6 @@ import java.beans.*;
 public class BankruptcyExtractor  extends JPanel
 	implements ActionListener, 
 	PropertyChangeListener{
-
 	
 	private static final long serialVersionUID = 201204192157L;
 

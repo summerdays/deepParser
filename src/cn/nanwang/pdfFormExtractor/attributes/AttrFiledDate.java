@@ -5,6 +5,7 @@ import java.util.regex.Pattern;
 
 import cn.nanwang.pdfFormExtractor.PDFAttribute;
 
+//@author Nan Wang
 
 public class AttrFiledDate extends PDFAttribute {
 	static Pattern dateRegex = Pattern.compile("Filed\\s+([0-9][0-9]/[0-9][0-9]/[0-9]{2,4})");

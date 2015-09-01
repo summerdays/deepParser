@@ -2,7 +2,7 @@ package cn.nanwang.pdfFormExtractor.attributes;
 
 import cn.nanwang.pdfFormExtractor.PDFAttribute;
 
-
+//@author Nan Wang
 
 public class AttrMarital extends PDFAttribute {
  

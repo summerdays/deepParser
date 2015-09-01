@@ -17,6 +17,7 @@ public class AttrCodeNumber extends PDFAttribute {
 		page = 0;
 		isKey = true;
 	}
+	
 	//find the case number after Case
 	public void computeValue(String src){
 		if(this.value == null){

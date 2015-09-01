@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 
 import cn.nanwang.pdfFormExtractor.PDFAttribute;
 
-
+//@author Nan Wang
 
 public class AttrSummary extends PDFAttribute {
 	
@@ -38,5 +38,4 @@ public class AttrSummary extends PDFAttribute {
 			//System.out.println(totals[iter-1]);
 		}
 	}
-	
 }

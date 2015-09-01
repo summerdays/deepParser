@@ -5,6 +5,7 @@ import java.util.regex.Pattern;
 
 import cn.nanwang.pdfFormExtractor.PDFAttribute;
 
+//@author Nan Wang
 
 public class AttrTotalPersonal extends PDFAttribute {
 	
@@ -49,6 +50,7 @@ public class AttrTotalPersonal extends PDFAttribute {
 		}
 
 		Matcher m2 = dot00Money2.matcher(src);
+		
 		if (m2.find()) {
 			//System.out.println(src);
 			if (this.value == null)
@@ -63,5 +65,4 @@ public class AttrTotalPersonal extends PDFAttribute {
 			}
 		}
 	}
-	
 }

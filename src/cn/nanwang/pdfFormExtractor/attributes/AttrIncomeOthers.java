@@ -5,6 +5,8 @@ import java.util.regex.Pattern;
 
 import cn.nanwang.pdfFormExtractor.PDFAttribute;
 
+//@author Nan Wang
+
 public class AttrIncomeOthers extends PDFAttribute {
  	static Pattern dot00Money = Pattern.compile("(?:^|[\\$\\s]+)((?:(?:(?:[\\d]{1,3})(?:,[\\d]{3}){0,3})|[\\d]+)\\.[\\d]{2})");
 
@@ -38,5 +40,4 @@ public class AttrIncomeOthers extends PDFAttribute {
 		if(totalValue!=0)
 			value = String.valueOf(totalValue);
 	}
-
 }

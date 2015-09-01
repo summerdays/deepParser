@@ -50,9 +50,7 @@ public class AttrBusinessRealProperty extends PDFAttribute {
 		if(src.matches(noneRegex) || src.startsWith("0.00")){
 			businessRealPropertyValue = "0.00";
 			businessRealPropertySecured = "0.00";
-		}
-		
-		
+		}		
 	}
 	
 	public String toString(){

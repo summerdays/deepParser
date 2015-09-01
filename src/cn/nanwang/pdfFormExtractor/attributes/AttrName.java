@@ -2,6 +2,8 @@ package cn.nanwang.pdfFormExtractor.attributes;
 
 import cn.nanwang.pdfFormExtractor.PDFAttribute;
 
+//@author Nan Wang
+
 public class AttrName extends PDFAttribute{
 	public AttrName(){
 		super();
@@ -9,5 +11,4 @@ public class AttrName extends PDFAttribute{
 		this.page = -1;
 		this.isKey = true;
 	}
-
 }

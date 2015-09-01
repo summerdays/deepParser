@@ -5,6 +5,7 @@ import java.util.regex.Pattern;
 
 import cn.nanwang.pdfFormExtractor.PDFAttribute;
 
+//@author Nan Wang
 
 public class AttrTotalMortgage extends PDFAttribute {
 	
@@ -40,6 +41,7 @@ public class AttrTotalMortgage extends PDFAttribute {
 		}
 		
 		Matcher m2 = dot00Money2.matcher(src);
+		
 		if (m2.find()) {
 			if (this.value == null)
 				this.value = m2.group(1);
@@ -53,5 +55,4 @@ public class AttrTotalMortgage extends PDFAttribute {
 			}
 		}
 	}
-	
 }

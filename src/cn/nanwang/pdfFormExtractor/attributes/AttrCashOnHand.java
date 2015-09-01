@@ -37,7 +37,5 @@ public class AttrCashOnHand extends PDFAttribute {
 					this.value = "0.00";
 			}
 		}
-
-	}
-	
+	}	
 }

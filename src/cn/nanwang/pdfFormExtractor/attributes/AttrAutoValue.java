@@ -39,6 +39,7 @@ public class AttrAutoValue extends PDFAttribute {
 			} while (mYear.find());
 			
 			Matcher m = moneyRegex.matcher(src);
+			
 			if (m.find()) {
 
 				if (this.value == null)

@@ -27,5 +27,4 @@ public class AttrZipCode extends PDFAttribute {
 			}
 		}
 	}
-	
 }
