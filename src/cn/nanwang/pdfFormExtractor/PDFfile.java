@@ -9,6 +9,7 @@ import org.apache.pdfbox.util.PDFTextStripper;
 
 import cn.nanwang.pdfFormExtractor.attributes.*;
 
+
 // @author Nan Wang
 
 public class PDFfile {
